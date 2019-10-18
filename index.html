@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Asha Jahagirdar portfolio - UX/UI/Frontend devlopment</title>
+
+    <!-- Bootstrap viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- superslides css -->
+    <link rel="stylesheet" href="css/superslides.css">
+
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+   
+
+     <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+      <!-- Font awesome
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src= "https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>  -->
+
+    <!-- fancy box css - used in portfolio section to view images in same window instead of going to a new browser tab/window -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <!-- my Style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="loader">
+        <div class="inner"></div>
+    </div>
+
+    <div id="slides">
+
+        <div class="overlay"></div>
+
+        <div class="slides-container">
+            <img src="images/img1.jpg" alt="">
+            <img src="images/img2.jpg" alt="">
+            <img src="images/img3.jpg" alt="">
+        </div>
+
+
+        <div class="titleMessage">
+            <div class="heading">
+                <p class="main">Asha Jahagirdar</p>
+                <p class="sub typed"></p>
+            </div>
+        </div>
+
+        <nav class="slides-navigation">
+            <a href="#" class="next"></a>
+            <a href="#" class="prev"></a>
+        </nav>
+
+    </div>
+
+    <nav id="navigation" class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">AJ</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                
+            </ul>
+        </div>
+
+    </nav>
+
+    <div id="about" class="section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="aboutImage" src="images/asha1.jpg" alt="">
+                </div>
+                <div class="col-md-7">
+                    <h4>My name is Asha Jahagirdar</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, eos? Aliquid excepturi eligendi
+                        odit porro a? Exercitationem aliquid, quo distinctio itaque magnam enim saepe modi? Saepe, autem
+                        sint esse cumque sunt maxime beatae sed quia distinctio sapiente nemo veniam. Molestias quaerat
+                        debitis in eum commodi voluptatibus id minus natus sit.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, aperiam repellat obcaecati
+                        ipsum voluptatum numquam vero repudiandae pariatur praesentium accusamus!</p>
+                    
+                    <div class="mediaIcons">
+                        <a href=""><i class="fa fa-facebook-square fa-2x"></i></a>
+                        <a href=""><i class="fa fa-instagram fa-2x"></i></a>
+                        <a href=""><i class="fa fa-linkedin fa-2x"></i></a>
+                        <a href=""><i class="fa fa-twitter-square fa-2x"></i></a>
+                        <a href=""><i class="fa fa-pinterest-square fa-2x"></i></a>
+                    </div>
+
+                    <a href="#" class="resumeButton">Download my Resume</a>
+
+                    <!-- <div class="resumeBox">
+                        <a href="#" target="_blank">Download my Resume</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="skills" class="skillsSection section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>TECHNICAL SKILLS</h2>
+                    <p>A representation of my proficiency in each skill</p>
+                </div>
+
+                <div class="owl-carousel owl-theme">
+
+                    <div class="skill">
+                        <span class="chart" data-percent="60">
+                            <span class="percent">60</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>HTML</h4>
+                        <p>Web based Projects</p>
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="55">
+                            <span class="percent">55</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>CSS</h4>
+                        <p>Web based Projects</p>
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="45">
+                            <span class="percent">45</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>Javascript</h4>
+                        <p>Web based projects</p>
+                    </div>
+
+
+                    <div class="skill">
+                        <span class="chart" data-percent="75">
+                            <span class="percent">75</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>SQL</h4>
+                        <p>Data based projects</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+   
+
+  
+
+    <div id="portfolio" class="section">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="heading">
+                    <h2>PORTFOLIO</h2>
+                </div>
+
+                <div class="filter">
+                    <ul id="filters">
+                        <li><a href="#" data-filter="*" class="current">ALL</a></li>
+                        <li><a href="#" data-filter=".ux">UX</a></li>
+                        <li><a href="#" data-filter=".ui">UI</a></li>
+                        <li><a href="#" data-filter=".websites">Websites</a></li>
+                    </ul>
+                </div>
+
+                <div class="itemsContainer">
+
+                    <ul class="items">
+                        <li on-click= "" class="ui col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="images/portfolio/thumbnails/spa-square.png" alt="">
+                                
+                                <div class="icons">
+                                    <a href="images/portfolio/spa.png" title="View image" class="openButton"
+                                        data-fancybox data-caption="Suwanee Performing arts - UI project">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+                            </div>
+                        </li>
+
+
+                        <li on-click= "" class="ui col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="images/portfolio/thumbnails/doed-square.png" alt="">
+                                <div class="icons">
+                                    <a href="images/portfolio/DOED.png" title="View image" class="openButton"
+                                        data-fancybox data-caption="Department of Education - UI Project">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+                            </div>
+                        </li>
+
+
+                        <li on-click= "" class="ux col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="images/portfolio/thumbnails/Exhange1.jpg" alt="">
+                                <div class="icons">
+                                    <a href="images/portfolio/Exchange.png" title="View image" class="openButton"
+                                        data-fancybox data-caption="Exchange App - UX Project">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+                            </div>
+                        </li>
+
+
+                        <li on-click= "" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="images/portfolio/thumbnails/html.jpg" alt="">
+                                <div class="icons">
+                                    <a href="images/portfolio/Portfolio.png" title="View image" class="openButton"
+                                        data-fancybox data-caption="Responsive Portfolio Design">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+                            </div>
+                        </li> 
+
+
+                        <li on-click= "" class="ux col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="images/portfolio/thumbnails/Travel.jpg" alt="">
+                                <div class="icons">
+                                    <a href="images/portfolio/Travel.png" title="View image" class="openButton"
+                                        data-fancybox data-caption="Travel App - UX Project">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+                            </div>
+                        </li>
+
+
+                        <!-- <li on-click= "" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="images/portfolio/thumbnails/thumbnail1.png" alt="">
+                                <div class="icons">
+                                    <a href="images/portfolio/spa.png" title="View image" class="openButton"
+                                        data-fancybox data-caption="Suwanee Performing arts">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="imageOverlay"></div>
+
+                            </div>
+                        </li> -->
+
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="contact" class="contactSection section">
+        <div class="col-md-12 text-center">
+            <p class="subHeading">Like what you see?</p>
+            <h2>I'd love to hear from you!</h2>
+
+            <a href="mailTO:ashaj.tech@gmail.com" class="contactButton">GET IN TOUCH</a>
+        </div>
+    </div>
+
+    <div class="copyrightSection">
+        <div class="col-md-12 text-center">
+                <p>&copy; Copyright Asha Jahagirdar 2019</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Superslides Javascript -->
+    <script src="js/jquery.superslides.min.js"></script>
+
+    <!-- Typed  - Position/Role - QA Engineer, UX Designer, FrontEnd Dev-->
+    <script src="js/typed.min.js"></script>
+
+    <!-- Owl carousel - Technical skills -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- easy pie chart -->
+    <script src="js/jquery.easypiechart.min.js"></script>
+
+    <!-- count up javascript -->
+    <script src="js/countUp.js"></script>
+
+    <!-- isotope -->
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+
+    <!-- Fancy box -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+    <!-- Javascript  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <!-- Javascript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <!-- My javascript file -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
